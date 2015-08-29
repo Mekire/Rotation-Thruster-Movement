@@ -24,7 +24,7 @@ def load_all_gfx(directory, colorkey=None, accept=(".png",".jpg",".bmp")):
                 img = img.convert()
                 if colorkey:
                     img.set_colorkey(colorkey)
-            graphics[name]=img
+            graphics[name] = img
     return graphics
 
 

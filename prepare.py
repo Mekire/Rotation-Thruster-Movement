@@ -14,10 +14,8 @@ BACKGROUND_COLOR = (10, 20, 30)
 SCALE_FACTOR = 0.3 # For scaleing down ship images.
 
 
-DIRECT_DICT = {pg.K_UP   : ( 0,-1),
-               pg.K_DOWN : ( 0, 1),
-               pg.K_RIGHT: ( 1, 0),
-               pg.K_LEFT : (-1, 0)}
+ROTATE = {pg.K_RIGHT: 1, pg.K_LEFT : -1}
+THRUST = pg.K_UP
 
 
 # Set up environment.
